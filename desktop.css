@@ -1,0 +1,193 @@
+/* for desktop*/
+.col-1{width:8.33% }
+.col-2{width:16.66% }
+.col-3{width:25% }
+.col-4{width:33.33% }
+.col-5{width:41.66% }
+.col-6{width:50% }
+.col-7{width:58.33% }
+.col-8{width:66.66% }
+.col-9{width:75% }
+.col-10{width:83.33% }
+.col-11{width:91.66% }
+.col-12{width:100% }
+ /* navbar starts here */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+body{
+margin: 0;
+}
+.nav-logo{
+    text-align: left;
+    margin-top: -15px;
+}
+
+.nav-heading h1{
+ text-align: right;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+.nav-menu a{
+    background-color: teal;
+    padding: 6px ;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+/* navbar ends here */
+
+
+
+  /* profile starts here */
+
+  .profile{
+      padding: 70px;
+  }
+  .profile .top-weather-icon{
+    position: absolute;
+    right: 100px;
+    top: 35px;
+    width: 90px;
+    transition: width 2s, transform 2s;
+}
+.profile .top-weather-icon:hover {
+    width: 120px;
+}
+
+.profile-desc p{
+    width: 50%;
+    margin: 10px auto 35px auto; 
+}
+.profile .bottom-weather-icon{
+    position: absolute;
+    left: 105px;
+    bottom: -45px;
+    transition: width 2s, transform 2s;
+}
+.profile .bottom-weather-icon:hover {
+    width: 120px;
+}
+
+/* profile ends here */
+
+/* About me starts here */
+
+.about-me .dotted-hr{
+    margin-top: 15px;
+    
+}
+.about-me-image img {
+    height: 295px;
+   width: 270px;
+   border: white solid 5px;
+   border-radius: 50%;
+   margin-top: 72px;
+   margin-bottom: 7px;
+   margin-left: -50px;
+   }
+.cv-button{
+    margin-left: -20px;
+    margin-top: 30px;
+}
+.about-me p{
+    text-align: left;
+    padding: 17px;
+}
+/* About me ends here */
+
+ /* Professional experience starts here  */
+
+  .card-title h2{
+      margin-top: 25px;
+  }
+
+.professional-experience .card{
+     height: 710px; 
+}
+
+ /* Professional experience ends here  */
+
+  /* Achievement contracts starts here */
+.achevement-contracts{
+    box-sizing: border-box;
+}
+.achievement{
+    margin-left: -13px;
+    margin-right: 13px;
+}
+  .achievement h2{
+    margin-bottom: 20px;
+}
+
+.achievement .dotted-hr{
+  margin-bottom: 27px;
+}
+
+.achievement p{
+
+    height: 80px;
+}
+
+
+.contract h2{
+margin-bottom: 20px;
+}
+.contract .dotted-hr{
+    margin-bottom: 27px;
+}
+
+.contract input,textarea{
+    width: 100%;
+    margin: 4px;
+}
+
+.contract textarea{
+    margin-bottom: 10px;
+}
+.contract-links{
+    text-align: center;
+     
+}
+.contract-links h2{
+    margin-bottom: 20px;
+}
+.contract-links{
+    position: relative;
+}
+.contract button{
+    padding: 10px 42px;
+    width: 130px;
+     }
+.media-buttons{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+   transform: translate(-50%,-50%); 
+   margin-top: 180px;
+   
+}
+.media-buttons .btn{
+    margin: 15px;
+    font-size: 46px;
+}
+
+
+ /* Achievement contracts ends here */
+
+  /* Footer starts here */
+  
+       
+   
+
+     .footer-ending {
+       
+         
+         margin-top: 25px;
+     }
+     /* Footer ends here */
